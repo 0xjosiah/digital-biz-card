@@ -17,16 +17,20 @@
   background-size: 200%;
   background-position-x: 55%;
   border-radius: 10px 10px 0 0;
+  margin-bottom: 2em;
 }
 
 .name {
   color: #fff;
+  padding: 0;
+  margin: 0 0 .1em;
 }
 
 .title {
   color: #F3BF99;
   font-size: 1em;
   font-weight: 400;
+  margin: 0 0 1em;
 }
 
 .website {
@@ -38,14 +42,25 @@
 .contact-links {
   display: flex;
   justify-content: space-between;
-  margin: 2em;
+  margin: 1.5em 2.5em;
 }
 
 .contact-links > a {
   text-decoration: none;
   display: block;
-  background: #fff;
   padding: .7em 1.5em;
   border-radius: 6px;
-  
+}
+
+.contact-links__icon {
+  margin-right: .75em;
+}
+
+.contact-link__email {
+  background: #fff;
+  color: #374151;
+}
+.contact-link__linked {
+  background: #5093E2;
+  color: #fff;
 }
