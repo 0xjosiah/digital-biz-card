@@ -7,7 +7,7 @@
   /* font-family: 'Inter'; */
 }
 
-/* Header section */
+/* Header component */
 
 .headshot {
   display: block;
@@ -48,12 +48,14 @@
 .contact-links > a {
   text-decoration: none;
   display: block;
-  padding: .7em 1.5em;
+  padding: .5em 1.25em;
+  font-size: 1.1em;
+  /* padding: 9px 13px; */
   border-radius: 6px;
 }
 
 .contact-links__icon {
-  margin-right: .75em;
+  margin-right: .65em;
 }
 
 .contact-link__email {
@@ -63,4 +65,26 @@
 .contact-link__linked {
   background: #5093E2;
   color: #fff;
+}
+
+
+/* About component */
+
+.info {
+  text-align: left;
+  color: #f5f5f5;
+  padding: 0 2.5em;
+  margin-top: 2.5em;
+}
+
+.info-header {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.info-text {
+  color: #dcdcdc;
+  font-size: .9em;
+  margin: 0;
+  line-height: 1.4em;
 }
