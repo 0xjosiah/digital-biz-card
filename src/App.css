@@ -4,7 +4,6 @@
   max-width: 350px;
   margin: 2em;
   border-radius: 10px;
-  /* font-family: 'Inter'; */
 }
 
 /* Header component */
@@ -24,13 +23,11 @@
   color: #fff;
   padding: 0;
   margin: 0 0 .1em;
-  font-size: 25px;
   font-size: 1.7rem;
 }
 
 .title {
   color: #F3BF99;
-  font-size: 12px;
   font-size: .9em;
   font-weight: 400;
   margin: 0 0 1em;
@@ -39,7 +36,6 @@
 .website {
   color: #F5F5F5;
   text-decoration: none;
-  font-size: 10px;
   font-size: .8em;
 }
 
@@ -57,13 +53,9 @@
   align-items: center;
   padding: 0;
   margin: 0;
-  /* padding: .5em 1.25em; */
-  /* padding: 9px 21px; */
-  font-size: 14px;
   font-size: .9em;
   width: 125px;
   height: 34px;
-  /* padding: 9px 13px; */
   border-radius: 6px;
 }
 
@@ -77,6 +69,7 @@
   background: #fff;
   color: #374151;
 }
+
 .contact-link__linked {
   background: #5093E2;
   color: #fff;
@@ -94,7 +87,6 @@
 
 .info-header {
   font-size: 1em;
-  /* font-size: 16px; */
   margin: 0;
   margin-bottom: 0.5em;
 }
@@ -102,7 +94,6 @@
 .info-text {
   color: #dcdcdc;
   font-size: .8em;
-  /* font-size: 10px; */
   margin: 0;
   line-height: 1.4em;
 }

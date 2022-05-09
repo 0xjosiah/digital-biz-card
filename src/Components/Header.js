@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+import { solid, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 export default () => (
     <div>
