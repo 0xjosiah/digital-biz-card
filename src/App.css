@@ -88,3 +88,20 @@
   margin: 0;
   line-height: 1.4em;
 }
+
+
+/* Footer component */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 3.5em;
+  background: #161619;
+  border-radius: 0 0 10px 10px;
+  margin-top: 3rem;
+}
+
+.social-link {
+  color: #918E9B;
+  font-size: 2em;
+}
