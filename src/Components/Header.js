@@ -6,10 +6,10 @@ export default () => (
         <div className="headshot"></div>
         <h1 className="name">Josiah Webb</h1>
         <h3 className="title">Frontend Developer</h3>
-        <a href="" className="website">josiahwebb.com</a>
+        <a href="https://www.josiahwebb.com" target="_blank" className="website">josiahwebb.com</a>
         <div className="contact-links">
-            <a className="contact-link__email" href=""><FontAwesomeIcon className="contact-links__icon" icon={solid('envelope')} />Email</a>
-            <a className="contact-link__linked" href=""><FontAwesomeIcon className="contact-links__icon" icon={brands('linkedin')} />LinkedIn</a>
+            <a className="contact-link__email" href="mailto:hello@josiahwebb.com" target="_blank"><FontAwesomeIcon className="contact-links__icon" icon={solid('envelope')} />Email</a>
+            <a className="contact-link__linked" href="https://www.linkedin.com/in/josiahwebb/" target="_blank"><FontAwesomeIcon className="contact-links__icon" icon={brands('linkedin')} />LinkedIn</a>
         </div>
     </div>
 )
